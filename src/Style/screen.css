@@ -1,0 +1,42 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+body{
+ 
+    height: 100%;
+}
+
+.c-app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+}
+
+
+.c-app-button{
+    all: unset;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding:  10px 25px;
+    transition:  background-color 0.3s ease-out;
+
+}
+
+
+.c-app-button:hover{
+background-color: rgb(65, 65, 65);
+}
+
+
+
+
+.c-app-title{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
